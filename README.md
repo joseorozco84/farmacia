@@ -46,7 +46,8 @@ ORDER BY cantidad_ventas DESC;
 
 ## Business Intelligence
 ##### Gráficos creados con PowerBI
-![image]()
+![image](![image](https://github.com/joseorozco84/farmacia/assets/81333025/d1334979-79b1-43a1-8961-69a605a83fd7)
+)
 
 
 ## Credenciales de usuario visitante en Servidor AWS:
