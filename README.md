@@ -3,7 +3,7 @@
 El modelo de negocios será el de una cadena de farmacias con varias sucursales:
 Esta temática implica la creación de una base de datos para gestionar la venta de productos y servicios de una farmacia, lo que incluye información sobre medicamentos, productos de belleza, servicios, precios, clientes, empleados, proveedores, niveles de stock, entre otros. Las compras se pueden realizar tanto presencial en cualquiera de las sucursales, como vía web.
 
-Leer la [documentación](https://github.com/joseorozco84/farmacia/blob/main/farmaciaOrozco.pdf) para información ampliada.
+Leer la [documentación](https://github.com/joseorozco84/farmacia/blob/main/Documentacion/Documentacion.pdf) para información ampliada.
 
 ## Estructura de tablas:
 
@@ -12,8 +12,8 @@ Leer la [documentación](https://github.com/joseorozco84/farmacia/blob/main/farm
 
 ## Uso de scripts:
 1. Instalar [MySQL Community Server 8.0](https://dev.mysql.com/downloads/mysql/)
-2. Ejecutar [script de creación](https://github.com/joseorozco84/farmacia/blob/main/1%20-%20Script%20Create%20DB/ScriptCreaOrozco.sql) de tablas, vistas, funciones, etc
-3. Ejecutar [script de inserción](https://github.com/joseorozco84/farmacia/blob/main/2%20-%20Script%20Populate/ScriptInsOrozco.sql) de datos ficticios
+2. Ejecutar [script de creación](https://github.com/joseorozco84/farmacia/blob/main/Scripts%20Mysql%20DB/Script%20creacion%20DB.sql) de tablas, vistas, funciones, etc
+3. Ejecutar [script de inserción](https://github.com/joseorozco84/farmacia/blob/main/Scripts%20Mysql%20DB/Script%20insercion%20Datos.sql) de datos ficticios
 
 ## Algunas consultas de ejemplo:
 
