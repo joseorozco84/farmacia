@@ -6,7 +6,7 @@ Esta temática implica la creación de una base de datos para gestionar la venta
 Leer la [documentación](https://github.com/joseorozco84/farmacia/blob/main/Documentacion/Documentacion.pdf) para información ampliada.
 
 ## Estructura de tablas:
-
+##### Creado con Draw.io
 ![image](https://github.com/joseorozco84/farmacia/blob/main/Documentacion/DER%20Esquematico%20Farmacia.svg)
 
 
@@ -46,8 +46,8 @@ ORDER BY cantidad_ventas DESC;
 
 ## Business Intelligence
 ##### Gráficos creados con PowerBI
-![image](![image](https://github.com/joseorozco84/farmacia/assets/81333025/d1334979-79b1-43a1-8961-69a605a83fd7)
-)
+![image](https://github.com/joseorozco84/farmacia/assets/81333025/5a088a16-ea42-4184-963c-0766f5c8c6c4)
+
 
 
 ## Credenciales de usuario visitante en Servidor AWS:
