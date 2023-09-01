@@ -7,7 +7,7 @@ Leer la [documentación](https://github.com/joseorozco84/farmacia/blob/main/Docu
 
 ## Estructura de tablas:
 
-![image](https://github.com/joseorozco84/farmacia/assets/81333025/e6755678-b48a-4373-a8c0-bf023ef1951a)
+![image](https://github.com/joseorozco84/farmacia/blob/main/Documentacion/DER%20Esquematico%20Farmacia.svg)
 
 
 ## Uso de scripts:
