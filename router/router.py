@@ -13,7 +13,7 @@ producto = APIRouter()
 # raiz
 @user.get("/", tags=["index"])
 def root():
-    return {"message": "FastAPI"}
+    return {"message": "API de farmacia - FastAPI"}
 
 # ver usuarios
 @user.get("/api/user", response_model=List[UserSchema], tags=["usuario"])
