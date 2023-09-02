@@ -59,23 +59,60 @@ ORDER BY cantidad_ventas DESC;
 
 
 ## Endpoints de la API
-##### API Endpoints creados con [FastAPI](https://fastapi.tiangolo.com/)
 La API de la farmacia proporciona acceso a información sobre productos, clientes y ventas.\
 El único metodo habilitado para el usuario visitante es el método GET.
 
 ### Lista de Endpoints
+##### API Endpoints creados con [Python](https://www.python.org/) :snake: + framework [**FastAPI**](https://fastapi.tiangolo.com/) :zap:
 
-- **Endpoint 1: Obtener lista de productos**
+**Obtener lista de productos**
   - Método: GET
-  - URL: https://farmacia-amx3.onrender.com/api/producto
+  - URL: /api/producto
   - Descripción: Este endpoint devuelve una lista de todos los productos disponibles.
-
-- **Endpoint 2: Obtener lista de usuarios**
-  - Método: GET
-  - URL: https://farmacia-amx3.onrender.com/api/user
-  - Descripción: Este endpoint devuelve una lista de todos los usuarios disponibles.
  
-- **Endpoint 3: Documentación de la API**
-  - URL: https://farmacia-amx3.onrender.com/docs
-  - Descripción: Este endpoint contiene la documentación generada por FastAPI.
+**Obtener un producto**
+  - Método: GET
+  - URL: /api/producto/id_producto
+  - Descripción: Este endpoint devuelve un producto segun su id_producto
+
+##### Ejemplo:
+```json
+{
+    "id_producto": 1,
+    "nombre": "Paracetamol 500mg",
+    "precio": 5.99,
+    "farmaco": "Acetaminofén",
+    "id_categoria": 1,
+    "id_proveedor": 1,
+    "activo": true
+}
+```
+
+**Obtener lista de usuarios**
+  - Método: GET
+  - URL: /api/user
+  - Descripción: Este endpoint devuelve una lista de todos los usuarios disponibles.
+
+##### Ejemplo:
+```json
+[
+    {
+        "id": 1,
+        "name": "Joe Dhon",
+        "username": "usuario1",
+        "password": "secretpassword"
+    },
+    {
+        "id": 2,
+        "name": "John Doe",
+        "username": "usuario2",
+        "password": "secretpassword"
+    }
+]
+```
+
+ 
+**Documentación de la API**
+  - URL: /docs
+  - Descripción: Este endpoint contiene la documentación interactiva en [Swagger UI](https://swagger.io/tools/swagger-ui/) generada por FastAPI :zap:
 
