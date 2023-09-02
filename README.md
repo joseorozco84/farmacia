@@ -47,11 +47,27 @@ ORDER BY cantidad_ventas DESC;
 ## Business Intelligence
 ##### Gráficos creados con PowerBI
 ![image](https://github.com/joseorozco84/farmacia/assets/81333025/5a088a16-ea42-4184-963c-0766f5c8c6c4)
+- Ventas por Año:
+    Este gráfico muestra la evolución de las ventas totales de la farmacia a lo largo de varios años. Puede revelar tendencias de crecimiento, estacionalidad o cambios en el rendimiento financiero a lo largo del tiempo.
 
+- Ventas por Categoría:
+    Este gráfico desglosa las ventas en categorías de productos, como medicamentos, productos de belleza, etc. Permite identificar qué categorías generan más ingresos y cuáles podrían requerir estrategias adicionales de marketing o ventas.
+
+- Ventas por Provincia:
+    Muestra las ventas de la farmacia desglosadas por provincias o ubicaciones geográficas. Puede ayudar a identificar las áreas geográficas más rentables y las que requieren un enfoque más estratégico.
+
+- Clientes por Género:
+    Este gráfico muestra la distribución de género de los clientes de la farmacia. Puede ser útil para personalizar la oferta de productos y servicios según el género predominante de la clientela.
+
+- Ranking de Vendedores:
+    Clasifica a los vendedores o empleados de ventas en función de su rendimiento, como las ventas totales realizadas. Puede servir como una herramienta de motivación y gestión de recursos humanos, destacando a los vendedores más exitosos.
+
+- Sueldo de Empleados:
+    Este gráfico muestra la estructura salarial de los empleados de la farmacia, incluyendo sueldos base, bonificaciones y otros beneficios. Ayuda a tener una visión general de la compensación dentro de la organización.
 
 
 ## Credenciales de usuario visitante en Servidor AWS:
-##### Se podrá conectar a la base de datos usando *MySQL Workbench 8.0* o desde la linea de comandos.
+##### Se podrá conectar a la base de datos usando *MySQL Workbench 8.0* o cualquier otro entorno y tambien desde la linea de comandos.
 - host: *database-farmacia.cccupuslvvw9.us-east-2.rds.amazonaws.com*
 - user: *visitante*
 - password: *Visitante123*
@@ -61,6 +77,8 @@ ORDER BY cantidad_ventas DESC;
 ## Endpoints de la API
 La API de la farmacia proporciona acceso a información sobre productos, clientes y ventas.\
 El único metodo habilitado para el usuario visitante es el método GET.
+
+Host: https://farmacia-amx3.onrender.com/
 
 ### Lista de Endpoints
 ##### API Endpoints creados con [Python](https://www.python.org/) :snake: + framework [**FastAPI**](https://fastapi.tiangolo.com/) :zap:
