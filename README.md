@@ -51,6 +51,26 @@ ORDER BY cantidad_ventas DESC;
 
 
 ## Credenciales de usuario visitante en Servidor AWS:
+##### Se podrá conectar a la base de datos usando *MySQL Workbench 8.0* o desde la linea de comandos.
 - host: *database-farmacia.cccupuslvvw9.us-east-2.rds.amazonaws.com*
 - user: *visitante*
 - password: *Visitante123*
+
+
+
+## Endpoints de la API
+La API de la farmacia proporciona acceso a información sobre productos, clientes y ventas.\
+El único metodo habilitado para el usuario visitante es el método GET.
+
+### Lista de Endpoints
+
+- **Endpoint 1: Obtener lista de productos**
+  - Método: GET
+  - URL: (https://farmacia-amx3.onrender.com/api/producto)
+  - Descripción: Este endpoint devuelve una lista de todos los productos disponibles.
+
+- **Endpoint 2: Obtener lista de usuarios**
+  - Método: GET
+  - URL: (https://farmacia-amx3.onrender.com/api/user)
+  - Descripción: Este endpoint devuelve una lista de todos los usuarios disponibles.
+
