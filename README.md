@@ -78,7 +78,7 @@ ORDER BY cantidad_ventas DESC;
 
 ## Endpoints de la API
 La API de la farmacia proporciona acceso a información sobre productos, clientes y ventas.\
-El único metodo habilitado para el usuario visitante es el método GET.
+El único método habilitado para el usuario visitante es el método GET.
 
 Host: https://farmacia-amx3.onrender.com/
 
