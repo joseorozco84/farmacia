@@ -51,6 +51,68 @@ ORDER BY cantidad_ventas DESC;
 
 
 ## Credenciales de usuario visitante en Servidor AWS:
+##### Se podrá conectar a la base de datos usando *MySQL Workbench 8.0* o desde la linea de comandos.
 - host: *database-farmacia.cccupuslvvw9.us-east-2.rds.amazonaws.com*
 - user: *visitante*
 - password: *Visitante123*
+
+
+
+## Endpoints de la API
+La API de la farmacia proporciona acceso a información sobre productos, clientes y ventas.\
+El único metodo habilitado para el usuario visitante es el método GET.
+
+### Lista de Endpoints
+##### API Endpoints creados con [Python](https://www.python.org/) :snake: + framework [**FastAPI**](https://fastapi.tiangolo.com/) :zap:
+
+**Obtener lista de productos**
+  - Método: GET
+  - URL: /api/producto
+  - Descripción: Este endpoint devuelve una lista de todos los productos disponibles.
+ 
+**Obtener un producto**
+  - Método: GET
+  - URL: /api/producto/id_producto
+  - Descripción: Este endpoint devuelve un producto segun su id_producto
+
+##### Ejemplo:
+```json
+{
+    "id_producto": 1,
+    "nombre": "Paracetamol 500mg",
+    "precio": 5.99,
+    "farmaco": "Acetaminofén",
+    "id_categoria": 1,
+    "id_proveedor": 1,
+    "activo": true
+}
+```
+
+**Obtener lista de usuarios**
+  - Método: GET
+  - URL: /api/user
+  - Descripción: Este endpoint devuelve una lista de todos los usuarios disponibles.
+
+##### Ejemplo:
+```json
+[
+    {
+        "id": 1,
+        "name": "Joe Dhon",
+        "username": "usuario1",
+        "password": "secretpassword"
+    },
+    {
+        "id": 2,
+        "name": "John Doe",
+        "username": "usuario2",
+        "password": "secretpassword"
+    }
+]
+```
+
+ 
+**Documentación de la API**
+  - URL: /docs
+  - Descripción: Este endpoint contiene la documentación interactiva en [Swagger UI](https://swagger.io/tools/swagger-ui/) generada por FastAPI :zap:
+
