@@ -11,6 +11,7 @@ Leer la [documentación](https://github.com/joseorozco84/farmacia/blob/main/Docu
 
 
 ## Uso de scripts:
+##### Pasos para la creación de la base de datos e inserción de datos
 1. Instalar [MySQL Community Server 8.0](https://dev.mysql.com/downloads/mysql/)
 2. Ejecutar [script de creación](https://github.com/joseorozco84/farmacia/blob/main/Scripts%20Mysql%20DB/Script%20creacion%20DB.sql) de tablas, vistas, funciones, etc
 3. Ejecutar [script de inserción](https://github.com/joseorozco84/farmacia/blob/main/Scripts%20Mysql%20DB/Script%20insercion%20Datos.sql) de datos ficticios
@@ -69,9 +70,10 @@ ORDER BY cantidad_ventas DESC;
 ## Credenciales de usuario visitante en Servidor AWS:
 ##### Se podrá conectar a la base de datos usando *MySQL Workbench 8.0* o cualquier otro entorno y tambien desde la linea de comandos.
 - host: *database-farmacia.cccupuslvvw9.us-east-2.rds.amazonaws.com*
+- port: 3306
+- database: farmacia
 - user: *visitante*
 - password: *Visitante123*
-
 
 
 ## Endpoints de la API
