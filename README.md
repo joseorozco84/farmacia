@@ -67,7 +67,7 @@ ORDER BY cantidad_ventas DESC;
     Este gráfico muestra la estructura salarial de los empleados de la farmacia, incluyendo sueldos base, bonificaciones y otros beneficios. Ayuda a tener una visión general de la compensación dentro de la organización.
 
 
-## Credenciales de usuario visitante en Servidor AWS:
+## Credenciales de usuario visitante en Servidor AWS (Deshabilitado temporalmente):
 ##### Se podrá conectar a la base de datos usando *MySQL Workbench 8.0* o cualquier otro entorno y tambien desde la linea de comandos.
 - host: *database-farmacia.cccupuslvvw9.us-east-2.rds.amazonaws.com*
 - port: 3306
@@ -76,7 +76,7 @@ ORDER BY cantidad_ventas DESC;
 - password: *Visitante123*
 
 
-## API Endpoints
+## API Endpoints (Deshabilitado temporalmente)
 La API de la farmacia proporciona acceso a información sobre productos, clientes y ventas.\
 El único método habilitado para el usuario visitante es el método GET.
 
