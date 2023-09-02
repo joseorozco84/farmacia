@@ -59,6 +59,7 @@ ORDER BY cantidad_ventas DESC;
 
 
 ## Endpoints de la API
+##### API Endpoints creados con [FastAPI](https://fastapi.tiangolo.com/)
 La API de la farmacia proporciona acceso a información sobre productos, clientes y ventas.\
 El único metodo habilitado para el usuario visitante es el método GET.
 
@@ -66,11 +67,15 @@ El único metodo habilitado para el usuario visitante es el método GET.
 
 - **Endpoint 1: Obtener lista de productos**
   - Método: GET
-  - URL: (https://farmacia-amx3.onrender.com/api/producto)
+  - URL: https://farmacia-amx3.onrender.com/api/producto
   - Descripción: Este endpoint devuelve una lista de todos los productos disponibles.
 
 - **Endpoint 2: Obtener lista de usuarios**
   - Método: GET
-  - URL: (https://farmacia-amx3.onrender.com/api/user)
+  - URL: https://farmacia-amx3.onrender.com/api/user
   - Descripción: Este endpoint devuelve una lista de todos los usuarios disponibles.
+ 
+- **Endpoint 3: Documentación de la API**
+  - URL: https://farmacia-amx3.onrender.com/docs
+  - Descripción: Este endpoint contiene la documentación generada por FastAPI.
 
