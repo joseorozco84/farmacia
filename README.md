@@ -76,7 +76,7 @@ ORDER BY cantidad_ventas DESC;
 - password: *Visitante123*
 
 
-## Endpoints de la API
+## API Endpoints
 La API de la farmacia proporciona acceso a información sobre productos, clientes y ventas.\
 El único método habilitado para el usuario visitante es el método GET.
 
