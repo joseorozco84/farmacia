@@ -70,7 +70,8 @@ Business Intelligence (BI) es un conjunto de herramientas y procesos para recopi
 
 
 ## Base de datos de prueba:
-##### Se podrá conectar a la base de datos usando *MySQL Workbench 8.0* o cualquier otro entorno y tambien desde la linea de comandos. El usuario está limitado solo a visualización (SELECT).
+##### Se podrá conectar a la base de datos usando *MySQL Workbench 8.0* o cualquier otro entorno y tambien desde la linea de comandos.
+##### El usuario está limitado solo a visualización (SELECT).
 - host: *srv995.hstgr.io*
 - port: *3306*
 - database: *u853169718_farmacia*
