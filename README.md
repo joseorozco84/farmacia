@@ -46,6 +46,8 @@ ORDER BY cantidad_ventas DESC;
 
 
 ## Business Intelligence
+Business Intelligence (BI) es un conjunto de herramientas y procesos para recopilar, analizar y presentar datos que apoyan la toma de decisiones empresariales, transformando información cruda en conocimientos útiles. Ayuda a las organizaciones a comprender su rendimiento y tomar medidas basadas en datos.
+
 ##### Gráficos creados con PowerBI
 ![image](https://github.com/joseorozco84/farmacia/assets/81333025/5a088a16-ea42-4184-963c-0766f5c8c6c4)
 - Ventas por Año:
