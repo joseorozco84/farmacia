@@ -69,13 +69,13 @@ Business Intelligence (BI) es un conjunto de herramientas y procesos para recopi
     Este gráfico muestra la estructura salarial de los empleados de la farmacia, incluyendo sueldos base, bonificaciones y otros beneficios. Ayuda a tener una visión general de la compensación dentro de la organización.
 
 
-## Credenciales de usuario visitante en Servidor AWS (Deshabilitado temporalmente):
+## Credenciales de usuario visitante para conectar a Mysql hosteado en Hostinger:
 ##### Se podrá conectar a la base de datos usando *MySQL Workbench 8.0* o cualquier otro entorno y tambien desde la linea de comandos.
-- host: *database-farmacia.cccupuslvvw9.us-east-2.rds.amazonaws.com*
-- port: 3306
-- database: farmacia
-- user: *visitante*
-- password: *Visitante123*
+- host: *srv995.hstgr.io*
+- port: *3306*
+- database: *u853169718_farmacia*
+- user: *u853169718_joseorozco*
+- password: *yZHW]>&Rz>8*
 
 
 ## API Endpoints (Deshabilitado temporalmente)
