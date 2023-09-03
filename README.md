@@ -69,7 +69,7 @@ Business Intelligence (BI) es un conjunto de herramientas y procesos para recopi
     Este gráfico muestra la estructura salarial de los empleados de la farmacia, incluyendo sueldos base, bonificaciones y otros beneficios. Ayuda a tener una visión general de la compensación dentro de la organización.
 
 
-## MySQL hosteado en Hostinger:
+## Base de datos de prueba:
 ##### Se podrá conectar a la base de datos usando *MySQL Workbench 8.0* o cualquier otro entorno y tambien desde la linea de comandos. El usuario está limitado solo a visualización (SELECT).
 - host: *srv995.hstgr.io*
 - port: *3306*
@@ -78,7 +78,7 @@ Business Intelligence (BI) es un conjunto de herramientas y procesos para recopi
 - password: *yZHW]>&Rz>8*
 
 
-## API Endpoints hosteado en render.com
+## API Endpoints:
 La API de la farmacia proporciona acceso a información sobre productos, clientes y ventas.\
 El único método habilitado para el usuario visitante es el método GET.
 
