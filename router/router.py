@@ -6,7 +6,6 @@ from config.db import engine
 from model.users import users
 from model.productos import productos
 from typing import List
-import asyncio
 
 user = APIRouter()
 producto = APIRouter()
