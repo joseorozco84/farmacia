@@ -21,7 +21,7 @@ async def root():
 @user.get("/api/user", response_model=List[UserSchema], tags=["usuario"])
 async def get_users():
     with engine.begin() as conn:
-        result = await conn.execute(users.select()).fetchall()
+        result = conn.execute(users.select()).fetchall()
         return result
 
 # crear usuario
@@ -52,7 +52,7 @@ async def delete_user(id: int):
 @producto.get("/api/producto", response_model=List[ProductoSchema], tags=["producto"])
 async def get_producto():
     with engine.begin() as conn:
-        result = await conn.execute(productos.select()).fetchall()
+        result = conn.execute(productos.select()).fetchall()
         return result
     
 # ver producto por ID
@@ -75,7 +75,6 @@ async def create_producto(data_producto: ProductoSchema):
 async def update_producto_by_id(data_producto: UpdateProductoSchema, id_producto: int):
     with engine.begin() as conn:
         await conn.execute(productos.update().values(data_producto.model_dump(exclude_unset=True)).where(productos.c.id_producto == id_producto))
-        # result = conn.execute(productos.select().where(productos.c.id_producto == id_producto)).first()
         return Response(status_code=HTTP_200_OK)
 
 # eliminar producto
