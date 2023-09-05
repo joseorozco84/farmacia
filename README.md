@@ -12,7 +12,7 @@ Leer la [documentación](https://github.com/joseorozco84/farmacia/blob/main/Docu
 
 ## Uso de scripts:
 ##### Pasos para la creación de la base de datos e inserción de datos
-1. Instalar [MySQL Community Server 8.0](https://dev.mysql.com/downloads/mysql/)
+1. Instalar [MySQL Community Server 8.0](https://dev.mysql.com/downloads/mysql/) 🐬
 2. Ejecutar [script de creación](https://github.com/joseorozco84/farmacia/blob/main/Scripts%20Mysql%20DB/Script%20creacion%20DB.sql) de tablas, vistas, funciones, etc
 3. Ejecutar [script de inserción](https://github.com/joseorozco84/farmacia/blob/main/Scripts%20Mysql%20DB/Script%20insercion%20Datos.sql) de datos ficticios
 
@@ -83,7 +83,7 @@ Business Intelligence (BI) es un conjunto de herramientas y procesos para recopi
 La API de la farmacia proporciona acceso a información sobre productos, clientes y ventas.\
 El único método habilitado para el usuario visitante es el método GET.
 
-Host: https://farmacia-amx3.onrender.com/
+Host: <https://farmacia-amx3.onrender.com/>
 
 ### Lista de Endpoints
 ##### API Endpoints creados con [Python](https://www.python.org/) :snake: + framework [**FastAPI**](https://fastapi.tiangolo.com/) :zap:
