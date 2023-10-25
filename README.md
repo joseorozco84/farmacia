@@ -88,6 +88,7 @@ La API de la farmacia proporciona acceso a información sobre productos, cliente
 El único método habilitado para el usuario visitante es el método GET.
 
 Host: <https://farmacia-amx3.onrender.com/>
+(Puede demorar la primera vez, debido a que el servidor entra en estado de inactividad)
 
 ### Lista de Endpoints
 ##### API Endpoints creados con [Python](https://www.python.org/) :snake: + framework [**FastAPI**](https://fastapi.tiangolo.com/) :zap:
