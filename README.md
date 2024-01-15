@@ -139,3 +139,4 @@ Host: <https://farmacia-amx3.onrender.com/>
   - URL: /docs
   - Descripción: Este endpoint contiene la documentación interactiva en [Swagger UI](https://swagger.io/tools/swagger-ui/) generada por FastAPI :zap:
 
+-- uvicorn main:app --reload
